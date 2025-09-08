@@ -103,7 +103,7 @@ header nav ul li a:hover {
   color: #0ff;
 }
 
-.hero-img img {
+.hero-img img{
 shape-outside: circle(50%);
     width: 200px;
     height: auto;
@@ -113,7 +113,7 @@ shape-outside: circle(50%);
     shape-outside: circle(50%);
         width: 500px;
         height: auto;
-    
+
     }
 /* Benefícios */
 .benefits {
