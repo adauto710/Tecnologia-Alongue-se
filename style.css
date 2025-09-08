@@ -1,0 +1,186 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #0a0a0a;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #111;
+  border-bottom: 2px solid #0ff;
+}
+
+header .logo h2 {
+  color: #0ff;
+}
+
+header .logo span {
+  font-size: 14px;
+  color: #999;
+}
+
+header .cipa {
+  background: linear-gradient(to right, #ff00ff, #ffcc00);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #0ff;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background: radial-gradient(circle at top left, #0ff3, #000);
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-text span {
+  color: #0ff;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.hero-text .buttons button {
+  padding: 12px 24px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#startBtn {
+  background: linear-gradient(90deg, #007bff, #00e5ff);
+  color: #fff;
+}
+
+#reminderBtn {
+  border: 2px solid #0ff;
+  background: transparent;
+  color: #0ff;
+}
+
+.hero-img img {
+shape-outside: circle(50%);
+    width: 200px;
+    height: auto;
+
+}
+.hero-img1 img {
+    shape-outside: circle(50%);
+        width: 500px;
+        height: auto;
+    
+    }
+/* Benefícios */
+.benefits {
+  padding: 60px;
+  text-align: center;
+}
+
+.benefits h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #0ff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #0ff;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* Exercícios */
+.exercises {
+  padding: 60px;
+  text-align: center;
+}
+
+.exercises h2 {
+  margin-bottom: 20px;
+  color: #0ff;
+}
+
+.exercises button {
+  background: #0ff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.exercises p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Notificações */
+.notify {
+  padding: 60px;
+  background: #111;
+  text-align: center;
+}
+
+.notify h2 {
+  color: #0ff;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #000;
+  border-top: 2px solid #0ff;
+}
